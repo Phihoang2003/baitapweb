@@ -1,0 +1,230 @@
+.wrapper{
+    width: 1300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-left{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.header-left .logo{
+    width: 96px;
+    height: 28px;
+}
+.header-left .menu{
+    width: 100%;
+    
+}
+.menu ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.menu ul li a:hover{
+    color: rgb(14, 168, 155);
+}
+.header-right{
+    position: relative;
+}
+.header-right input{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(236, 236, 236);
+    border:0px;
+    border-radius: 5px;
+    position: absolute;
+    left: -500px;
+    top: 10px;
+}
+.header-right .img1{
+    position: absolute;
+    left: -160px;
+    top: 5px;
+}
+.header-right .img2{
+    position: absolute;
+    left: -50px;
+    top: 5px;
+}
+.section{
+    width: 100%;
+
+}
+.section-top{
+    width: 100%;
+    height: 500px;
+    background-color: antiquewhite;
+}
+.title{
+    width: 35%;
+    padding: 100px;
+}
+.title h1{
+    color: rgb(14, 168, 155);
+    font-size: 40px;
+    font-weight: 700;
+}
+p{
+    color: gray;
+}
+.title button{
+    width: 100px;
+    height: 30px;
+    border: 0px;
+    color: white;
+    background-color: rgb(14, 168, 155);
+    border-radius: 5px;
+}
+.big-img{
+    position: relative;
+}
+.big-img img{
+    position: absolute;
+    right: 50px;
+    top: -400px;
+}
+.section-bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.category1{
+    width: 90%;
+  
+}
+.category-head{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.category-head p{
+    margin: 20px;
+}
+.category1 .products{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.product{
+    border: rgb(212, 212, 212) 1px solid;
+}
+.nameproduct{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+.nameproduct img{
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+}
+.product h2{
+    margin: 15px 0px;
+}
+.product h3{
+    margin: 0px;
+    color: rgb(14, 168, 155);
+    margin-bottom: 10px;
+    margin: 0 10px;
+    margin-bottom: 10px;
+}
+.vote{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+.vote img{
+    width: 100px;
+    height: 20px;
+}
+.vote p{
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.whatnew{
+    width: 90%;
+}
+.whatnew-head{
+    width: 100%;
+    text-align: center;
+}
+.list{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+}
+.item h3{
+    color: rgb(14, 168, 155);
+}
+.item h2{
+    width: 80%;
+   
+}
+.read{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.see{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    padding-bottom: 20px;
+}
+.see button{
+    background-color: aqua;
+    border: 0px;
+    border-radius: 5px;
+    color: rgb(14, 168, 155);
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px rgb(195, 195, 195) solid;
+    padding-top: 20px;
+}
+.footer .sub input{
+    height: 30px;
+    border: 0px;
+    background-color: rgb(219, 219, 219);
+}
+.footer .sub button{
+    height: 35px;
+    border: 0px;
+    background-color: rgb(14, 168, 155);
+    color: white;
+}
+.footer .about{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.last{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.last select{
+    width: 150px;
+    height: 40px;
+}
